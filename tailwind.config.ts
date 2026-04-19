@@ -13,7 +13,17 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        display: ['"Cormorant Garamond"', 'serif'],
+        sans: ['Inter', 'sans-serif'],
+        marathi: ['"Tiro Devanagari Marathi"', 'serif'],
+      },
       colors: {
+        gold: "hsl(var(--gold))",
+        maroon: "hsl(var(--maroon))",
+        spice: "hsl(var(--spice))",
+        cream: "hsl(var(--cream))",
+        ink: "hsl(var(--ink))",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
